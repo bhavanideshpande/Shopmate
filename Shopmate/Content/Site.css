@@ -1,0 +1,148 @@
+﻿#topbar {
+    width: 1000px;
+    height: 72px;
+    padding:10px;
+}
+
+#bg {
+    width: 1000px;
+    height: 72px;
+    background: #ffffff;
+}
+
+#menu {
+    width: 438px;
+    height: 36px;
+}
+
+#women {
+    width: 62.83px;
+    height: 36px;
+    color: #2e2e2e;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+#men {
+    width: 34.15px;
+    height: 36px;
+    color: #2e2e2e;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+#kids {
+    width: 33.96px;
+    height: 36px;
+    color: #2e2e2e;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+#shoes {
+    width: 47.19px;
+    height: 36px;
+    color: #2e2e2e;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+#brands {
+    width: 55.9px;
+    height: 36px;
+    color: #2e2e2e;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+#sHOPMATE {
+    width: 176.77px;
+    height: 29px;
+    color: #f62f5e;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 4px;
+}
+
+#icons {
+    width: 83px;
+    height: 34px;
+}
+
+#iconssearc {
+    width: 20px;
+    height: 20px;
+}
+
+#bounds {
+    width: 20px;
+    height: 20px;
+}
+
+#line {
+    width: 4px;
+    height: 4px;
+    border: solid #2e2e2e
+}
+
+#oval {
+    width: 12px;
+    height: 12px;
+    border: solid #2e2e2e
+}
+
+#iconsbagbl {
+    width: 20px;
+    height: 20px;
+}
+
+#bounds {
+    width: 20px;
+    height: 20px;
+}
+
+#path {
+    width: 15.97px;
+    height: 10px;
+    border: solid #2e2e2e
+}
+
+#path {
+    width: 8px;
+    height: 8.01px;
+    border: solid #2e2e2e
+}
+
+#controlsnu {
+    width: 24px;
+    height: 27px;
+}
+
+#bg {
+    width: 24px;
+    height: 24px;
+    background: #f62f5e;
+}
+
+#a {
+    width: 10.19px;
+    height: 24px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
