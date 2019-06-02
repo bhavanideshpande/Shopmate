@@ -10,12 +10,42 @@
 <body>
     <header>
         <nav class="navbar  navbar-expand-lg navbar-light top-navbar">
-            <div id="topbar">
-                <a class="navbar-brand" href="@Url.Action("index", "home")"><span id="sHOPMATE">SHOPMATE</span></a>
+            <a class="navbar-brand" href="@Url.Action("index", "home")"><span id="sHOPMATE">SHOPMATE</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topbar" aria-controls="topbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="topbar" class="collapse navbar-collapse">
+
+                <div class="nav-item">
+                    <a href="@Url.Action("index","women")"><span id="women">WOMEN</span></a>
+                </div>
+                <div class="nav-item ">
+                    <a href="@Url.Action("index","men")"><span id="men">MEN</span></a>
+                </div>
+                <div class="nav-item ">
+                    <a href="@Url.Action("index","kids")"><span id="kids">KIDS</span></a>
+                </div>
+                <div class="nav-item ">
+                    <a href="@Url.Action("index","shoes")"><span id="shoes">SHOES</span></a>
+                </div>
+                <div class="nav-item mr-auto">
+                    <a href="@Url.Action("index","brands")"><span id="women">BRANDS</span></a>
+                </div>
+
+                <div class="nav-item">
+                    <a href="#"><img src="https://a.icons8.com/PSdOYTql/7SOi2s/iconssearchblack.png" class="img-fluid" /></a>
+                </div>
+                <div class="nav-item">
+                    <a href="#"><img src="https://a.icons8.com/PSdOYTql/MT0H1R/iconsbagblack.png" class="img-fluid" /></a>
+                    <a href="#" id="controlsnu bg"><img src="https://a.icons8.com/PSdOYTql/yAkwnR/controlsnumberred.png" class="img-fluid" /></a>
+                </div>
+                
+
             </div>
         </nav>
     </header>
-    <div class="container body-content">
+    <div>
         @RenderBody()
         <hr />
 
