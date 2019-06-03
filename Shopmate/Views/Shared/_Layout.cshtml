@@ -15,10 +15,10 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div id="topbar" class="collapse navbar-collapse">
+            <div id="topbar" class="collapse navbar-collapse" ng-app="categories" ng-controller="catctrl">
 
-                <div class="nav-item">
-                    <a href="@Url.Action("index","women")"><span id="women">WOMEN</span></a>
+                <div class="nav-item" ng-repeat="x in data">
+                    <a href="@Url.Action("index","women")"><span id="women">{{data.name}}</span></a>
                 </div>
                 <div class="nav-item ">
                     <a href="@Url.Action("index","men")"><span id="men">MEN</span></a>

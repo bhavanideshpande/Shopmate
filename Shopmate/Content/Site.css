@@ -1,4 +1,8 @@
-﻿.graybg {
+﻿@font-face {
+    font-family: 'LucidaGrande-Bold';
+    src: url('~/Fonts/LucidaGrandeBold.ttf') format('truetype'),
+}
+.graybg {
     background-color:#f7f7f7;
 }
 
