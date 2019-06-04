@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Shopmate</title>
+    <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
@@ -15,23 +15,13 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div id="topbar" class="collapse navbar-collapse" ng-app="categories" ng-controller="catctrl">
+            <div id="topbar" class="collapse navbar-collapse" ng-app="departments" ng-controller="depctrl">
 
                 <div class="nav-item" ng-repeat="x in data">
-                    <a href="@Url.Action("index","women")"><span id="women">{{data.name}}</span></a>
+                    <a href="/Departments/{{ x.department_id }}"><span id="women"> {{ x.name }} </span></a>
                 </div>
-                <div class="nav-item ">
-                    <a href="@Url.Action("index","men")"><span id="men">MEN</span></a>
-                </div>
-                <div class="nav-item ">
-                    <a href="@Url.Action("index","kids")"><span id="kids">KIDS</span></a>
-                </div>
-                <div class="nav-item ">
-                    <a href="@Url.Action("index","shoes")"><span id="shoes">SHOES</span></a>
-                </div>
-                <div class="nav-item mr-auto">
-                    <a href="@Url.Action("index","brands")"><span id="women">BRANDS</span></a>
-                </div>
+                
+                <div class="mr-auto"></div>
 
                 <div class="nav-item">
                     <a href="#"><img src="https://a.icons8.com/PSdOYTql/7SOi2s/iconssearchblack.png" class="img-fluid" /></a>
@@ -40,7 +30,7 @@
                     <a href="#"><img src="https://a.icons8.com/PSdOYTql/MT0H1R/iconsbagblack.png" class="img-fluid" /></a>
                     <a href="#" id="controlsnu bg"><img src="https://a.icons8.com/PSdOYTql/yAkwnR/controlsnumberred.png" class="img-fluid" /></a>
                 </div>
-                
+
 
             </div>
         </nav>
@@ -51,6 +41,7 @@
 
     </div>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
